@@ -72,7 +72,6 @@ io.on("connection", async (s) => {
       // if token is correct find user by id and if not found return nothing.
       let user = await User.findOne({ _id: id });
       if (!user) return;
-      console.log(user);
       // Send user info to client.
       s.emit("auth", JSON.stringify(user));
 
