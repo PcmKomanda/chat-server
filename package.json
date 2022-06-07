@@ -1,0 +1,29 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "PcmKomanda",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "discord-oauth2": "^2.9.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "googleapis": "^100.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5",
+    "redis": "^4.1.0",
+    "request": "^2.88.2",
+    "sendmail": "^1.6.1",
+    "socket.io": "^4.3.2"
+  }
+}
